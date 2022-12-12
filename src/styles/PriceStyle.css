@@ -1,0 +1,53 @@
+.card {
+    background-color: #000;
+    color: #fff;
+    padding: 4rem 2rem;
+    width: 100%;
+}
+
+.card .card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5rem;
+}
+
+.card-container .card-text {
+    text-align: center;
+    border: 1px solid #fff;
+    padding: 2rem;
+    width: 100%;
+    transition: all .25s ease-in-out;
+}
+.card-text:hover {
+    background-color: rgba(75, 75, 75, 0.533);
+}
+.card-text .bar {
+    text-align: center;
+    border-bottom: 1px solid #fff;
+    width: 10%;
+    height: 1px;
+    background-color: #fff;
+    display: block;
+    margin: 1.2rem auto;
+}
+.card-text h1 {
+    font-size: 4rem;
+    padding: 1.5rem 0rem;
+}
+
+.card-text p {
+    font-size: 1rem;
+}
+.btn {
+    margin-top: 1.5rem;
+    width: 100%;
+} 
+
+@media screen and (max-width: 850px) {
+    .card-container {
+        flex-direction: column !important;
+        justify-content: center !important;
+    }
+}

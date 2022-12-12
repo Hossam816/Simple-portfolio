@@ -4,6 +4,7 @@ import HeroImage2 from '../components/HeroImage2'
 import Footer from '../components/Footer'
 import image2 from '../assets/pexels-startup-stock-photos-7377.jpg'
 import ProjectData from '../components/ProjectData';
+import PriceCard from '../components/PriceCard';
 
 function Project() {
     return (
@@ -15,6 +16,7 @@ function Project() {
                 imgSrc={image2}
             />
             <ProjectData />
+            <PriceCard />
             <Footer />
         </div>
     )
