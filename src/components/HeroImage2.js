@@ -1,7 +1,5 @@
 import React from 'react'
 import '../styles/HeroImage2.css';
-import { Link } from 'react-router-dom';
-
 
 function HeroImage(props) {
     return (

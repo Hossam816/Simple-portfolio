@@ -1,6 +1,5 @@
 import React from 'react'
 import '../styles/HeroImage.css';
-import image1 from '../assets/pexels-wendy-wei-14397945.jpg';
 import { Link } from 'react-router-dom';
 
 

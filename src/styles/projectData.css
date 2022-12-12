@@ -1,0 +1,63 @@
+.project-data{
+    padding: 4rem 2rem;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    background-color: #000;
+}
+.project-data h1 {
+    color: #fff;
+    margin-bottom: 2rem;
+    font-family: 900;
+    font-size: 3rem;
+}
+.project-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.data-container{
+    width: 33.33%;
+    padding: 1.5rem .5rem 0 .5rem;
+    box-shadow: 0 5px 15px 0 rgb(0, 0, 0, .25);
+    background-color: rgba(29, 28, 28, 0.6);
+    color: #fff9;
+}
+.data-container img {
+    width: 100%;
+    padding-bottom: 1rem;
+    background-position: center;
+    background-size: cover;
+}
+.data-container h4 {
+    padding: 1rem 0;
+    font-size: 1.2rem;
+    text-align: start;
+    font-weight: 900;
+}
+.data-container p {
+    text-align: start;
+    letter-spacing: 1.5px;
+}
+.btn-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    padding: 1.5rem 0;
+}
+
+@media screen and (max-width: 850px) {
+    .project-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .data-container {
+        width: 100%;
+    }
+}
