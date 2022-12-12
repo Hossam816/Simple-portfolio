@@ -13,7 +13,7 @@ function ContactForm() {
                 <label>Message*</label>
                 <textarea placeholder='Type Your Message Heer'></textarea>
             </form>
-        </div>
+        </div> 
     )
 }
 
