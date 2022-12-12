@@ -5,9 +5,13 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background: #000;
     position: fixed;
     z-index: 99999;
+}
+
+.header-bg {
+    background-color: #0008;
+    transition: all .5s ease-in-out;
 }
 
 .header a {
