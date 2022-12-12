@@ -1,20 +1,20 @@
-.hero {
+.hero-second {
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 70vh;
 }
-.mask {
+.mask-second {
     width: 100%;
     height: 100%;
 }
-.mask img {
+.mask-second img {
     height: 100%;
     width: 100%;
     object-fit: cover;
     background-size: cover;
-    background-position: center;
+    background-position: center top;
 }
-.mask::after{
+.mask-second::after{
     content: '';
     background-color: #0008;
     width: 100%;
@@ -23,7 +23,7 @@
     top: 0;
     left: 0;
 }
-.hero-content {
+.second-content {
     position: absolute;
     top: 40%;
     left: 50%;
@@ -31,18 +31,17 @@
     color: #fff;
     text-align: center;
 }
-.hero-content p, h1 {
+.second-content p, h1 {
     text-transform: uppercase;
 }
 
-.hero-content p{
-    font-size: 1.4rem;
+.second-content p{
+    font-size: 1.5rem;
     font-weight: 200;
-
 }
 
-.hero-content h1{
-    font-size: 2.2rem;
+.second-content h1{
+    font-size: 2.5rem;
     padding: 0.6rem 0 1.5rem ;
     font-weight: 800;
 }
@@ -53,10 +52,10 @@
 }
 
 @media screen and (max-width: 640px) {
-    .hero-content h1{
+    .second-content h1{
         font-size: 3rem;
     }
-    .hero-content p{
+    .second-content p{
         font-size: 1.4rem;
     }
 }
